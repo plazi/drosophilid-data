@@ -46,7 +46,16 @@
         <xsl:value-of select="basename"/>
         <xsl:text>",</xsl:text>
         <xsl:text>"access_right" : "</xsl:text>
-        <xsl:value-of select="'open'"/>
+        <xsl:choose>
+            <xsl:when test="year lt '1999'">
+                <xsl:text>open</xsl:text>
+                <xsl:message>open</xsl:message>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:text>closed</xsl:text>
+                <xsl:message>closed</xsl:message>
+            </xsl:otherwise>
+        </xsl:choose>
         <xsl:text>",</xsl:text>
         <xsl:text>"journal_pages" : "</xsl:text>
         <xsl:value-of select="pagination"/>
@@ -72,9 +81,11 @@
         </xsl:choose>
         <xsl:text>",</xsl:text>
         <xsl:text>"keywords": ["Biodiversity","Taxonomy","Animalia","Arthropoda","Insecta","Diptera","Drosophilidae", "flies", "fruit flies", "terrestrial"],</xsl:text>
-        <xsl:text>"license" : "</xsl:text>
-        <xsl:value-of select="'cc-by'"/>
-        <xsl:text>",</xsl:text>
+        <xsl:if test="year lt '1999'">
+         <xsl:text>"license" : "</xsl:text>
+            <xsl:value-of select="'cc-by'"/>
+         <xsl:text>",</xsl:text>
+        </xsl:if>
         <xsl:text>"creators" : [</xsl:text>
         <xsl:apply-templates
             select="*[starts-with(local-name(), 'author_')][normalize-space(./text())]"/>
@@ -164,7 +175,7 @@
         <xsl:text>{"name" :"</xsl:text>
         <xsl:value-of select="."/>
         <xsl:text>"}</xsl:text>
-<!--        <xsl:text>", "affiliation" : null}</xsl:text> -->
+        <!--        <xsl:text>", "affiliation" : null}</xsl:text> -->
         <xsl:if test="following-sibling::*[starts-with(local-name(), 'author_')][text()]">
             <xsl:text>,</xsl:text>
         </xsl:if>
