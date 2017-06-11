@@ -61,7 +61,7 @@
         <xsl:value-of select="pagination"/>
         <xsl:text>",</xsl:text>
         <xsl:text>"journal_title" : "</xsl:text>
-        <xsl:value-of select="journalOrPublisher"/>
+        <xsl:value-of select="full_name"/>
         <xsl:text>",</xsl:text>
         <xsl:text>"journal_volume" : "</xsl:text>
         <xsl:value-of select="volume"/>
