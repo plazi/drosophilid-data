@@ -83,7 +83,7 @@
         <xsl:text>"keywords": ["Biodiversity","Taxonomy","Animalia","Arthropoda","Insecta","Diptera","Drosophilidae", "flies", "fruit flies", "terrestrial"],</xsl:text>
         <xsl:if test="year lt '1999'">
          <xsl:text>"license" : "</xsl:text>
-            <xsl:value-of select="'cc-by'"/>
+            <xsl:value-of select="'No known license'"/>
          <xsl:text>",</xsl:text>
         </xsl:if>
         <xsl:text>"creators" : [</xsl:text>
@@ -106,7 +106,7 @@
       "journal_volume" : "34",
       "publication_type" : "article",
       "publication_date" : "1890-12-31",
-      "license" : "cc-by",
+      "license" : "No known license",
       "creators":[{"name" : "Forel, A.", "affiliation" : null}],
       "communities":[{"identifier":"biosyslit"}]
     }},-->
