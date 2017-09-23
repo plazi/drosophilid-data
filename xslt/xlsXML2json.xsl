@@ -30,7 +30,9 @@
     </xsl:template>
     <xsl:template match="row" mode="journal">
         <xsl:variable name="description">
-            <xsl:text>uploaded by Plazi from Taxodros</xsl:text>
+            <xsl:text>uploaded by Plazi from Taxodros;</xsl:text>
+            <xsl:text>ID:</xsl:text>
+            <xsl:value-of select="basename"/>
         </xsl:variable>
         <xsl:text>{"metadata": {</xsl:text>
         <xsl:text>"title" : "</xsl:text>
