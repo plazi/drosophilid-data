@@ -4,6 +4,7 @@ Repository for cleanup, enhancement, and preparation of Drosophlid data provide 
 ## Goal
 * create a repository for all the flies referenced in taxodros, eventually to link to the taxonomic names and to convert them.
 * add the zenodo deposition number and eventual created DOI to the provide bibliography
+* explore how this upload can be used to add more corpora of publciations to BLR/Zenodo
 
 ## Steps
 1. Set up infrastructure to proceed based on the data available [here](https://drive.google.com/drive/u/0/folders/0B_yrQwn4yBySfjBfOFZfNGdvTEhobl9YR21UazlmcWxfNnlzYUM1dFVaS0UtS1JsNTJ6WFU?resourcekey=0-Orz3w0AIiL0lMbN8jdHfPg)
