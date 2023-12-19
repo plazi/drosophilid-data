@@ -7,11 +7,11 @@ Repository for cleanup, enhancement, and preparation of Drosophlid data provide 
 
 ## Steps
 1. Set up infrastructure to proceed based on the data available [here](https://drive.google.com/drive/u/0/folders/0B_yrQwn4yBySfjBfOFZfNGdvTEhobl9YR21UazlmcWxfNnlzYUM1dFVaS0UtS1JsNTJ6WFU?resourcekey=0-Orz3w0AIiL0lMbN8jdHfPg)
-      2. Drosophilid data: https://github.com/plazi/drosophilid-data
-      3. Drosophilid upload (stalled a couple of years ago): https://github.com/plazi/drosophilid-upload
+      a. Drosophilid data: https://github.com/plazi/drosophilid-data
+      b. Drosophilid upload (stalled a couple of years ago): https://github.com/plazi/drosophilid-upload
 2. Clean bibliographic references
 3. Check for existing DOI
 4. Check for existing uploads in Zenodo
 5. Use [Lycophorn](https://github.com/plazi/lycophron) or alternative tool to upload
-      6. upload as biosyslit community, create a taxodros community and add as well
+      a. upload as biosyslit community, create a taxodros community and add as well
 6. create an updated file including the Zenodo deposit ID   
