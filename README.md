@@ -1,7 +1,7 @@
 # drosophilid-data
 Repository for cleanup, enhancement, and preparation of Drosophlid data provide by Bächli, [Taxodros](https://www.taxodros.uzh.ch/)
 
-Taxodros is maintained with semiannual updates, the next being in January 2024. It now includes a look up of DOIs for the existing articles, as well as ca 200 new articles per year ([Bächli](https://github.com/plazi/drosophilid-data/issues/20)
+Taxodros is maintained with semiannual updates, the next being in January 2024. It now includes a look up of DOIs for the existing articles, as well as ca 200 new articles per year ([Bächli](https://github.com/plazi/drosophilid-data/issues/20))
 
 ## Goal
 * create a repository for all the flies referenced in taxodros, eventually to link to the taxonomic names and to convert them.
