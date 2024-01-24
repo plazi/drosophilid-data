@@ -3,7 +3,7 @@ Repository for cleanup, enhancement, and preparation of Drosophlid data provide 
 
 Taxodros is maintained with semiannual updates, the next being in January 2024. It now includes a look up of DOIs for the existing articles, as well as ca 200 new articles per year ([Bächli](https://github.com/plazi/drosophilid-data/issues/20))
 
-the 2024 release con be found in the [Taxodro.github.io](https://taxodros.github.io/) repo
+the 2024 release con be found in the [Taxodros.github.io](https://taxodros.github.io/) repo
 
 ## Goal
 * create a repository for all the flies referenced in taxodros, eventually to link to the taxonomic names and to convert them.
