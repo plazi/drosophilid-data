@@ -5,6 +5,8 @@ Taxodros is maintained with semiannual updates, the next being in January 2024. 
 
 the 2024 release con be found in the [Taxodros.github.io](https://taxodros.github.io/) repo
 
+Taxonomic coverage: Asteiidae Aulacigastridae Camillidae Cryptochaetidae Curtonotidae Diastatidae Periscelididae Xenasteiidae Drosophilidae
+
 ## Goal
 * create a repository for all the flies referenced in taxodros, eventually to link to the taxonomic names and to convert them.
 * add the zenodo deposition number and eventual created DOI to the provide bibliography
