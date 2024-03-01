@@ -21,4 +21,7 @@ Taxonomic coverage: Asteiidae Aulacigastridae Camillidae Cryptochaetidae Curtono
 4. Check for existing uploads in Zenodo
 5. Use [Lycophorn](https://github.com/plazi/lycophron) or alternative tool to upload
       a. upload as biosyslit community, create a taxodros community and add as well
-6. create an updated file including the Zenodo deposit ID   
+6. create an updated file including the Zenodo deposit ID
+
+## Implmentation
+move to [Taxodros](https://github.com/TaxoDros/TaxoDros.github.io/issues/19)
